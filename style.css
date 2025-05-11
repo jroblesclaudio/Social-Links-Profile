@@ -1,0 +1,25 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts */
+@font-face {
+    font-family: 'Inter';
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+:root{
+    --color-Green: hsl(75, 94%, 57%);
+
+    --color-text-White: hsl(0, 0%, 100%);
+
+    --color-button: hsl(0, 0%, 20%);
+    --color-card: hsl(0, 0%, 12%);
+    --color-background: hsl(0, 0%, 8%);
+}
+
+body{
+    background-color: hsl(0, 81%, 23%);
+}
